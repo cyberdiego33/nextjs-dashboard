@@ -4,11 +4,14 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Acme Dashboard",
-    default: "Acme Dashboard",
+    template: "%s | Greatness IO",
+    default: "Greatness IO",
   },
   description: "The official Next.js Learn Dashboard built with App Router.",
   metadataBase: new URL("https://next-learn-dashboard.vercel.sh"),
+  verification: {
+    google: "google6ab5655dda329ecb.html",
+  },
 };
 
 export default function RootLayout({
